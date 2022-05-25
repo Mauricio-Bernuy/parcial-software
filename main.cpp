@@ -185,7 +185,7 @@ public:
         CurrentSubject.registerObserver(new GameStrategyObserver(strat));
     }
 
-    void start(){
+    void start() const{
         vector<int> sequence = numberGenVector(100);
         while (!sequence.empty()){
             int current = sequence.back();
