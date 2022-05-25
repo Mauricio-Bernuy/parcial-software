@@ -7,7 +7,7 @@
 #include <random>
 using namespace std;
 
-vector<int> primeto100 = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97};
+const vector<int> primeto100 = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97};
 // strategy, singleton, observer
 
 class GameStrategy{
@@ -15,15 +15,16 @@ public:
     vector<int> receivedNumbers;
     string name = "";
     virtual bool execStrategy() = 0;
+    virtual ~GameStrategy() = default;
 };
 
 class FiveEvenStrat : public GameStrategy{
 public:
     FiveEvenStrat(){name ="Cinco números pares";}
-    bool execStrategy(){
+    bool execStrategy() override{
         int evens = 0;
-        for (int i = 0; i < receivedNumbers.size(); i++){
-            if ( receivedNumbers[i] % 2 == 0)
+        for (auto number : receivedNumbers){
+            if ( number % 2 == 0)
                 evens++;
         }
         if (evens >= 5){
@@ -40,10 +41,10 @@ public:
 class FiveUnevenStrat : public GameStrategy{
 public:
     FiveUnevenStrat(){name ="Cinco números impares";}
-    bool execStrategy(){
+    bool execStrategy() override{
         int unevens = 0;
-        for (int i = 0; i < receivedNumbers.size(); i++){
-            if ( receivedNumbers[i] % 2 != 0)
+        for (auto number : receivedNumbers){
+            if ( number % 2 != 0)
                 unevens++;
         }
         if (unevens >= 5){
@@ -61,9 +62,9 @@ public:
 class OnePrimeStrat : public GameStrategy{
 public:
     OnePrimeStrat(){name ="Un número primo";}
-    bool execStrategy(){
-        for (int i = 0; i < receivedNumbers.size(); i++){
-            if (count(primeto100.begin(), primeto100.end(), receivedNumbers[i])){
+    bool execStrategy() override{
+        for (auto number : receivedNumbers){
+            if (count(primeto100.begin(), primeto100.end(), number)){
                 for (auto i: receivedNumbers)
                     std::cout << i << ", ";
                 std::cout << "entonces el ganador es: " << name<< "\n";
@@ -77,10 +78,10 @@ public:
 class ThreeMultipleTenStrat : public GameStrategy{
 public:
     ThreeMultipleTenStrat(){name ="Tres números múltiplos de 10";}
-    bool execStrategy(){
+    bool execStrategy () override{
         int multiples = 0;
-        for (int i = 0; i < receivedNumbers.size(); i++){
-            if ( receivedNumbers[i] % 10 == 0)
+        for (auto number : receivedNumbers){
+            if ( number % 10 == 0)
                 multiples++;
         }
         if (multiples >= 3){
@@ -99,10 +100,10 @@ public:
 class TwoMultipleTwentyFiveStrat : public GameStrategy{
 public:
     TwoMultipleTwentyFiveStrat(){name ="Dos números múltiplos de 25";}
-    bool execStrategy(){
+    bool execStrategy() override{
         int multiples = 0;
-        for (int i = 0; i < receivedNumbers.size(); i++){
-            if ( receivedNumbers[i] % 25 == 0)
+        for (auto number : receivedNumbers){
+            if ( number % 25 == 0)
                 multiples++;
         }
         if (multiples >= 2){
@@ -124,9 +125,7 @@ class GameStrategyObserver : public Observer{
     private:
         GameStrategy* strat;
     public:
-        GameStrategyObserver(GameStrategy* _strat){
-            strat = _strat;
-        }
+        explicit GameStrategyObserver(GameStrategy* _strat):strat(_strat){}
         bool update(int value) override {
             strat->receivedNumbers.push_back(value);
             return strat->execStrategy();
@@ -145,7 +144,7 @@ public:
     void removeObserver(){
         observerList.pop_back();
     }
-    bool notifyObserver(int newRNGNumber){
+    const bool notifyObserver(int newRNGNumber){
         for (auto & i : observerList) {
             if (i->update(newRNGNumber) == true)
                 return true;
@@ -162,7 +161,7 @@ private:
     Context(){};
     GameSubject CurrentSubject;
 
-    vector<int> numberGenVector(int n){
+    const vector<int> numberGenVector(int n){
         vector<int> numbers(n);
         iota(numbers.begin(), numbers.end(), 1);
 

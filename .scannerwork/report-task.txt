@@ -1,0 +1,7 @@
+organization=mauricio-bernuy
+projectKey=Mauricio-Bernuy_parcial-software
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.29242
+dashboardUrl=https://sonarcloud.io/dashboard?id=Mauricio-Bernuy_parcial-software
+ceTaskId=AYD5HWogmNM3SLSG3Zcp
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYD5HWogmNM3SLSG3Zcp

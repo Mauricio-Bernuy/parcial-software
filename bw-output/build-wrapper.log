@@ -1,0 +1,105 @@
+Tue May 24 21:47:17 2022: build-wrapper, version 6.33 (win-x86-64)
+Tue May 24 21:47:17 2022: isWow64: 0
+Tue May 24 21:47:17 2022: windows version: 6.2, service pack: 0.0, build number: 9200, product type: 1
+Tue May 24 21:47:17 2022: current directory: C:\Users\mauri\source\repos\Software\parcial-software
+Tue May 24 21:47:17 2022: cwd: <C:\Users\mauri\source\repos\Software\parcial-software>
+Tue May 24 21:47:17 2022: out-dir absolute path: <C:\Users\mauri\source\repos\Software\parcial-software\bw-output>
+Tue May 24 21:47:17 2022: command line received: <g++ main.cpp>
+Tue May 24 21:47:17 2022: initializing json file
+Tue May 24 21:47:17 2022: starting debug cycle
+Tue May 24 21:47:17 2022: process created with pid: 3552
+Tue May 24 21:47:17 2022: image path name: <C:\msys64\mingw64\bin\g++.exe>
+Tue May 24 21:47:17 2022: command line: <g++ main.cpp>
+Tue May 24 21:47:17 2022: working directory: <C:\Users\mauri\source\repos\Software\parcial-software\>
+Tue May 24 21:47:17 2022: isWow64: 0
+Tue May 24 21:47:17 2022: env0: <=C:=C:\Users\mauri\source\repos\Software\parcial-software>
+Tue May 24 21:47:17 2022: env1: <ALLUSERSPROFILE=C:\ProgramData>
+Tue May 24 21:47:17 2022: env2: <AMDPROFILERPATH=C:\Program Files\AMD\AMDuProf\bin>
+Tue May 24 21:47:17 2022: env3: <AMDRMPATH=C:\Program Files\AMD\RyzenMaster\>
+Tue May 24 21:47:17 2022: env4: <APPDATA=C:\Users\mauri\AppData\Roaming>
+Tue May 24 21:47:17 2022: env5: <CAMLIBS=C:\Program Files\darktable\lib\libgphoto2\2.5.26>
+Tue May 24 21:47:17 2022: env6: <ChocolateyInstall=C:\ProgramData\chocolatey>
+Tue May 24 21:47:17 2022: env7: <ChocolateyLastPathUpdate=132595683915479418>
+Tue May 24 21:47:17 2022: env8: <CommonProgramFiles=C:\Program Files\Common Files>
+Tue May 24 21:47:17 2022: env9: <CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files>
+Tue May 24 21:47:17 2022: env10: <CommonProgramW6432=C:\Program Files\Common Files>
+Tue May 24 21:47:17 2022: env11: <COMPUTERNAME=DESKTOP-S5GT6SH>
+Tue May 24 21:47:17 2022: env12: <ComSpec=C:\WINDOWS\system32\cmd.exe>
+Tue May 24 21:47:17 2022: env13: <CYGWIN=wincmdln>
+Tue May 24 21:47:17 2022: env14: <DriverData=C:\Windows\System32\Drivers\DriverData>
+Tue May 24 21:47:17 2022: env15: <HOMEDRIVE=C:>
+Tue May 24 21:47:17 2022: env16: <HOMEPATH=\Users\mauri>
+Tue May 24 21:47:17 2022: env17: <INTEL_DEV_REDIST=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\>
+Tue May 24 21:47:17 2022: env18: <IOLIBS=C:\Program Files\darktable\lib\libgphoto2_port\0.12.0>
+Tue May 24 21:47:17 2022: env19: <JAVA_HOME=C:\Users\mauri\.jdks\openjdk-18>
+Tue May 24 21:47:17 2022: env20: <LOCALAPPDATA=C:\Users\mauri\AppData\Local>
+Tue May 24 21:47:17 2022: env21: <LOGONSERVER=\\DESKTOP-S5GT6SH>
+Tue May 24 21:47:17 2022: env22: <MAGICK_HOME=C:\Program Files\darktable\lib\GraphicsMagick-1.3.36\modules-Q8\coders>
+Tue May 24 21:47:17 2022: env23: <MIC_LD_LIBRARY_PATH=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic>
+Tue May 24 21:47:17 2022: env24: <NUMBER_OF_PROCESSORS=8>
+Tue May 24 21:47:17 2022: env25: <NVM_HOME=C:\Users\mauri\AppData\Roaming\nvm>
+Tue May 24 21:47:17 2022: env26: <NVM_SYMLINK=C:\Program Files\nodejs>
+Tue May 24 21:47:17 2022: env27: <OneDrive=C:\Users\mauri\OneDrive>
+Tue May 24 21:47:17 2022: env28: <OneDriveConsumer=C:\Users\mauri\OneDrive>
+Tue May 24 21:47:17 2022: env29: <OnlineServices=Online Services>
+Tue May 24 21:47:17 2022: env30: <OS=Windows_NT>
+Tue May 24 21:47:17 2022: env31: <Path=C:\Users\mauri\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mauri\AppData\Local\Programs\Python\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\AMD\AMDuProf\bin;C:\Program Files (x86)\NoteBook FanControl\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\ADB and Fastboot++;C:\Program Files\dotnet\;C:\Users\mauri\Documents\Sonar\build-wrapper-win-x86\;C:\Users\mauri\Documents\Sonar\sonar-scanner-4.7.0.2747-windows\bin;C:\Users\mauri\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mauri\AppData\Local\Microsoft\WindowsApps;C:\Users\mauri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mauri\AppData\Local\GitHubDesktop\bin;C:\Users\mauri\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\gnuplot\bin;C:\msys64\mingw64\bin;C:\Users\mauri\.local\bin;C:\ffmpeg\bin;C:\Program Files\boost\boost_1_77_0;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\bin;C:\Users\mauri\AppData\Roaming\npm>
+Tue May 24 21:47:17 2022: env32: <PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW>
+Tue May 24 21:47:17 2022: env33: <platformcode=KV>
+Tue May 24 21:47:17 2022: env34: <PROCESSOR_ARCHITECTURE=AMD64>
+Tue May 24 21:47:17 2022: env35: <PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD>
+Tue May 24 21:47:17 2022: env36: <PROCESSOR_LEVEL=23>
+Tue May 24 21:47:17 2022: env37: <PROCESSOR_REVISION=1100>
+Tue May 24 21:47:17 2022: env38: <ProgramData=C:\ProgramData>
+Tue May 24 21:47:17 2022: env39: <ProgramFiles=C:\Program Files>
+Tue May 24 21:47:17 2022: env40: <ProgramFiles(x86)=C:\Program Files (x86)>
+Tue May 24 21:47:17 2022: env41: <ProgramW6432=C:\Program Files>
+Tue May 24 21:47:17 2022: env42: <PROMPT=$P$G>
+Tue May 24 21:47:17 2022: env43: <PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules>
+Tue May 24 21:47:17 2022: env44: <PUBLIC=C:\Users\Public>
+Tue May 24 21:47:17 2022: env45: <RegionCode=NA>
+Tue May 24 21:47:17 2022: env46: <SONAR_TOKEN=f106fec3ad460a86da9437d09ca8917588652184>
+Tue May 24 21:47:17 2022: env47: <SystemDrive=C:>
+Tue May 24 21:47:17 2022: env48: <SystemRoot=C:\WINDOWS>
+Tue May 24 21:47:17 2022: env49: <TEMP=C:\Users\mauri\AppData\Local\Temp>
+Tue May 24 21:47:17 2022: env50: <TMP=C:\Users\mauri\AppData\Local\Temp>
+Tue May 24 21:47:17 2022: env51: <USERDOMAIN=DESKTOP-S5GT6SH>
+Tue May 24 21:47:17 2022: env52: <USERDOMAIN_ROAMINGPROFILE=DESKTOP-S5GT6SH>
+Tue May 24 21:47:17 2022: env53: <USERNAME=mauri>
+Tue May 24 21:47:17 2022: env54: <USERPROFILE=C:\Users\mauri>
+Tue May 24 21:47:17 2022: env55: <VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\>
+Tue May 24 21:47:17 2022: env56: <windir=C:\WINDOWS>
+Tue May 24 21:47:17 2022: env57: <WSLENV=WT_SESSION::WT_PROFILE_ID>
+Tue May 24 21:47:17 2022: env58: <WT_PROFILE_ID={0caa0dad-35be-5f56-a8ff-afceeeaa6101}>
+Tue May 24 21:47:17 2022: env59: <WT_SESSION=1543c3bf-dc13-49d9-a630-2b1d9c240d32>
+Tue May 24 21:47:17 2022: env60: <_NO_DEBUG_HEAP=1>
+Tue May 24 21:47:17 2022: process created with pid: 2012
+Tue May 24 21:47:17 2022: image path name: <C:\msys64\mingw64\bin\..\lib\gcc\x86_64-w64-mingw32\10.1.0\cc1plus.exe>
+Tue May 24 21:47:17 2022: command line: <C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/cc1plus.exe -quiet -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/ -D_REENTRANT main.cpp -quiet -dumpbase main.cpp -mtune=generic -march=x86-64 -auxbase main -o C:\Users\mauri\AppData\Local\Temp\cc9YlgOe.s>
+Tue May 24 21:47:17 2022: working directory: <C:\Users\mauri\source\repos\Software\parcial-software\>
+Tue May 24 21:47:17 2022: isWow64: 0
+Tue May 24 21:47:17 2022: skipping process C:\msys64\mingw64\bin\..\lib\gcc\x86_64-w64-mingw32\10.1.0\cc1plus.exe with pid: 2012
+Tue May 24 21:47:18 2022: process with pid 2012 exit with code: 0 (0x0)
+Tue May 24 21:47:18 2022: process created with pid: 20084
+Tue May 24 21:47:18 2022: image path name: <C:\msys64\mingw64\bin\..\lib\gcc\x86_64-w64-mingw32\10.1.0\..\..\..\..\x86_64-w64-mingw32\bin\as.exe>
+Tue May 24 21:47:18 2022: command line: <C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -o C:\Users\mauri\AppData\Local\Temp\ccR6fQf9.o C:\Users\mauri\AppData\Local\Temp\cc9YlgOe.s>
+Tue May 24 21:47:18 2022: working directory: <C:\Users\mauri\source\repos\Software\parcial-software\>
+Tue May 24 21:47:18 2022: isWow64: 0
+Tue May 24 21:47:18 2022: skipping process C:\msys64\mingw64\bin\..\lib\gcc\x86_64-w64-mingw32\10.1.0\..\..\..\..\x86_64-w64-mingw32\bin\as.exe with pid: 20084
+Tue May 24 21:47:18 2022: process with pid 20084 exit with code: 0 (0x0)
+Tue May 24 21:47:18 2022: process created with pid: 10724
+Tue May 24 21:47:18 2022: image path name: <C:\msys64\mingw64\bin\..\lib\gcc\x86_64-w64-mingw32\10.1.0\collect2.exe>
+Tue May 24 21:47:18 2022: command line: <C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\mauri\AppData\Local\Temp\cc39R5Ie.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. C:\Users\mauri\AppData\Local\Temp\ccR6fQf9.o -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o>
+Tue May 24 21:47:18 2022: working directory: <C:\Users\mauri\source\repos\Software\parcial-software\>
+Tue May 24 21:47:18 2022: isWow64: 0
+Tue May 24 21:47:18 2022: skipping process C:\msys64\mingw64\bin\..\lib\gcc\x86_64-w64-mingw32\10.1.0\collect2.exe with pid: 10724
+Tue May 24 21:47:18 2022: process created with pid: 2756
+Tue May 24 21:47:18 2022: image path name: <C:\msys64\mingw64\bin\..\lib\gcc\x86_64-w64-mingw32\10.1.0\..\..\..\..\x86_64-w64-mingw32\bin\ld.exe>
+Tue May 24 21:47:18 2022: command line: <C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/liblto_plugin-0.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\mauri\AppData\Local\Temp\cc39R5Ie.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../.. C:\Users\mauri\AppData\Local\Temp\ccR6fQf9.o -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/crtend.o>
+Tue May 24 21:47:18 2022: working directory: <C:\Users\mauri\source\repos\Software\parcial-software\>
+Tue May 24 21:47:18 2022: isWow64: 0
+Tue May 24 21:47:18 2022: skipping process C:\msys64\mingw64\bin\..\lib\gcc\x86_64-w64-mingw32\10.1.0\..\..\..\..\x86_64-w64-mingw32\bin\ld.exe with pid: 2756
+Tue May 24 21:47:19 2022: process with pid 2756 exit with code: 0 (0x0)
+Tue May 24 21:47:19 2022: process with pid 10724 exit with code: 0 (0x0)
+Tue May 24 21:47:19 2022: process with pid 3552 exit with code: 0 (0x0)
+Tue May 24 21:47:19 2022: finalizing json file
