@@ -119,6 +119,7 @@ public:
 class Observer{
     public:
         virtual bool update(int value) = 0;
+        virtual ~Observer() = default;
 };
 
 class GameStrategyObserver : public Observer{
@@ -144,7 +145,7 @@ public:
     void removeObserver(){
         observerList.pop_back();
     }
-    const bool notifyObserver(int newRNGNumber){
+    bool notifyObserver(int newRNGNumber) const{
         for (auto & i : observerList) {
             if (i->update(newRNGNumber) == true)
                 return true;
@@ -158,10 +159,10 @@ public:
 // Application / Client
 class Context{
 private:
-    Context(){};
+    Context() = default;
     GameSubject CurrentSubject;
 
-    const vector<int> numberGenVector(int n){
+    vector<int> numberGenVector(int n) const{
         vector<int> numbers(n);
         iota(numbers.begin(), numbers.end(), 1);
 
