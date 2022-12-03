@@ -3,5 +3,5 @@ projectKey=Mauricio-Bernuy_parcial-software
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.29242
 dashboardUrl=https://sonarcloud.io/dashboard?id=Mauricio-Bernuy_parcial-software
-ceTaskId=AYD5TiEOXiTYlfW5jBri
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYD5TiEOXiTYlfW5jBri
+ceTaskId=AYD5UjnYAuP7cL3NpVHN
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYD5UjnYAuP7cL3NpVHN
